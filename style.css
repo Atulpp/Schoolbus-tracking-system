@@ -1,0 +1,219 @@
+*{
+        		margin: 0;
+                        padding: 0;
+                        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                        -webkit-box-sizing: border-box;
+                        -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+                        background-color: purple;
+                       color: white;
+                       
+
+
+        	}
+        	body{
+        		background-repeat: no-repeat;
+        		-webkit-background-size: cover;
+        		background-size: cover;
+
+                                		
+        	}
+        	.login-box{
+        		width: 500px;
+        		background-color: rgba(1, 1, 20, 0.6);
+        		margin: 50px auto;
+        		border-radius: 10px;
+        		border: 20px ridge #00bfff;
+        		box-shadow: 0 0 20px 5px #000;
+        	}
+
+.logout-box{
+                width: 300px;
+                background-color: rgba(1, 1, 20, 0.6);
+                margin: 250px auto;
+                border-radius: 20px;
+                border: 10px ridge #00bfff;
+                box-shadow: 0 0 20px 5px #000;
+            }
+
+            .registerlogin-box{
+                width: 900px;
+                background-color: rgba(1, 1, 20, 0.6);
+                margin: 50px auto;
+                border-radius: 10px;
+                border: 20px ridge #00bfff;
+                box-shadow: 0 0 20px 5px #000;
+            }
+
+        	.info{
+        		width: 100%;
+        		padding-top: 10px;
+        		font-size: 30px;
+        		color: #fff;
+        		text-align: center;
+        		text-shadow: 1px 1px 2px #000;
+                background-color: gray;
+            }
+                .registerinfo{
+                width: 100%;
+                padding-top: 10px;
+                font-size: 30px;
+                color: #fff;
+                text-align: center;
+                text-shadow: 1px 1px 2px #000;
+                background-color: gray;
+        	}
+        	.form-box{
+        		padding: 25px;
+                background-color: gray;
+            }
+            .form-box1{
+                padding: 15px;
+                background-color: gray;
+        	}
+        	.inp{
+        		width: 100%;
+        		padding: 12px;
+        		margin-bottom: 3px;
+        		border: none;
+        		border-radius: 5px;
+        		font-size: 20px;
+        		border-bottom: 2px solid #000;
+        		color: #dc143c;
+        	}
+        	.inp:focus{
+        		outline: none;
+        		border-bottom: 2px solid #dc143c;
+        		color: #dc143c;
+        	}
+        	.sub-btn{
+        		width: 100%;
+        		padding: 12px;
+        		border-radius: 5px;
+        		border: none;
+        		font-size: 20px;
+        		background: linear-gradient(#00bfff,navy);
+        		cursor: pointer;
+        		color: #fff;
+        		border-bottom: 2px solid #000;
+        		text-shadow: 1px 1px 1px #000;
+        	}
+        	.sub-btn:hover{
+        		background: linear-gradient(#dc143c,#8b0000);
+        		-webkit-transition: all .0.3s;
+        		-o-transition: all .0.3s;
+        		transition: all .0.3s;
+        	}
+        	.sub-btn:focus{
+        		outline: none;
+        		box-shadow: 2px 2px 5px 0 #000 inset;
+        	}
+        	.rem{
+        		margin-bottom: 10px;
+        		margin-top: 10px;
+        		width: 20px;
+        		height: 20px;
+        	}
+        	span{
+        		color: #fff;
+        		margin-left: 10px;
+        		position: absolute;
+        		margin-top: 12px;
+        		text-shadow: 1px 1px 1px #000;
+        	}
+        	.f-pass{
+        		float: right;
+        		margin-top: 12px;
+        		color: #fff;
+        		text-shadow: 1px 1px 1px #000;
+        	}
+        	.account{
+        		margin-top: 10px;
+        		text-align: center;
+        		color: #fff;
+        		font-size: 25px;
+        		text-shadow: 0 2px 1px #000;
+                background-color: gray;
+        	}
+        	.reg{
+        		display: block;
+        		width: 100%;
+        		padding: 12px;
+        		text-align: center;
+        		text-decoration: none;
+        		background: linear-gradient(#dc143c,#8b0000);
+        		color: #fff;
+        		border-radius: 5px;
+        		border-bottom: 2px solid #000;
+        		font-size: 20px;
+        		text-shadow: 1px 1px 1px #000;
+        	}
+
+            .reg1{
+               display: block;
+                width: 100%;
+                padding: 12px;
+                text-align: center;
+                text-decoration: none;
+                background: linear-gradient(#dc143c,#8b0000);
+                color: #fff;
+                border-radius: 5px;
+                border-bottom: 2px solid #000;
+                font-size: 20px;
+                text-shadow: 1px 1px 1px #000;
+            }
+
+            .lgt{
+                display: block;
+                width: 100%;
+                padding: 12px;
+                text-align: center;
+                text-decoration: none;
+                background: linear-gradient(#dc143c,#8b0000);
+                color: #fff;
+                border-radius: 5px;
+                border-bottom: 2px solid #000;
+                font-size: 20px;
+                text-shadow: 1px 1px 1px #000;
+            }
+        	.reg:hover{
+        		background: linear-gradient(#00bfff,navy);
+        	}
+        	@media (max-width: 720px) {
+        		.login-box{
+        			width: 100%;
+        			border: 10px ridge #00bfff;
+        		}
+        	}
+
+                table{
+                        border: 9px black;
+                        table-layout: fixed;
+                        width: 100%;
+                        height: 200px;
+                        text-align: center;
+                        border: 9px solid black;
+                        font-size: 17px;
+                        
+                }
+                th:nth-child(even){background-color: darkblue}
+                th{
+
+                        background-color: blue;
+                        color: white;
+                        padding: 15px;
+                         border-bottom: 3px solid #ddd;
+
+
+
+                }
+                tr:nth-child(even) {background-color: #f2f2f2}
+                td{
+
+                        background-color: gray;
+                        padding: 15px;
+                        color: white;
+                         border-bottom: 3px solid #ddd;
+
+                }
+
